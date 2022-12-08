@@ -51,4 +51,32 @@ body {
         font-family: ZETUEO;
       }
 
+     
+
+      
+      .hover {position:relative;}
+
+
+      .hover img {
+        position:absolute;
+        /* CSS3淡出淡入效果,1秒 */
+        -webkit-transition: opacity 1s ease-in-out;
+        -moz-transition: opacity 1s ease-in-out;
+        -o-transition: opacity 1s ease-in-out;
+        transition: opacity 1s ease-in-out;
+      }
+      
+      
+      
+      .hover img:nth-of-type(2):hover{
+        opacity:0; 
+      }
+
+      .s text{
+        position: relative;
+        font-size: 16px;
+        color:aliceblue
+      }
+      
+         
     
