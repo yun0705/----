@@ -1,0 +1,402 @@
+@charset "UTF-8";
+
+a:link {
+  text-decoration: none;
+}
+
+
+
+#Title {
+
+  height: 750px;
+  background-color: black;
+
+}
+
+#Info {
+
+  height: 750px;
+  background-color: gray;
+
+}
+
+#WorldView {
+
+  height: 750px;
+  background-color: black;
+
+}
+
+#Characters {
+
+  height: 750px;
+  background-color: gray;
+  
+}
+
+#Arts {
+
+  height: 750px;
+  background-color: black;
+
+}
+
+#Product {
+
+  height: 500px;
+  background-color: gray;
+
+}
+
+.Footer {
+
+  height: 50px;
+  background-color: black;
+
+}
+
+/*====================================================*/
+
+@media(min-width: 1300px){ /*For PC*/
+
+  #TopHead button[type="HeaderNavMenuButton"] {
+    visibility: hidden;
+    font-size: 25px;
+  }
+
+  .TopNav {
+    float: right;
+    margin-right: 50px;
+  }
+  
+  .TopNav ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+  .TopNav li {
+    display: inline;
+    font-weight: bold;
+    float: left; 
+    margin-left: 25px;
+    margin-top: 17.5px;
+    margin-bottom: 17.5px;
+    font-size: 30px;
+    
+  }
+  
+  .TopNav a {
+    margin: 0px;
+    text-transform:uppercase;
+  }
+  
+  /*===================================*/
+  /*+++++++++++++++++++++++++++++++++++*/
+  /*===================================*/
+  
+  .TopNav li:link {
+    background-color: #FFF;
+  }
+  
+  .TopNav li:visited {
+    background-color: #FFF;
+  }
+  
+  .TopNav li:hover {
+    background-color: #FFF;
+    border-radius:10px;
+  }
+  
+  .TopNav li:active {
+    background-color: #FFF;
+  }
+  
+  
+  
+  .TopNav a:link {
+    color: #FFF;
+  }
+  
+  .TopNav a:visited {
+    color: #FFF;
+  }
+  
+  .TopNav a:hover {
+    color: #000;
+    
+  }
+  
+  .TopNav a:active {
+    color: #FFF;
+  }
+
+
+}
+
+/*====================================================*/
+
+@media(max-width: 1300px) { /*For Mobile*/
+
+  #TopHead button[type="HeaderNavMenuButton"] {
+    font-size: 25px;
+
+    float: right;
+    height:75px;
+    width:75px;
+
+  }
+
+  .TopNav {
+    float: right;
+    margin-right: 50px;
+  }
+  
+  .TopNav ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+  .TopNav li {
+    display: inline;
+    font-weight: bold;
+    float: left; 
+    margin-left: 30px;
+    margin-top: 17.5px;
+    margin-bottom: 17.5px;
+    font-size: 30px;
+    
+    visibility: hidden;
+  }
+  
+  .TopNav a {
+    margin: 0px;
+    text-transform:uppercase;
+  }
+  
+
+
+
+
+
+
+
+}
+
+/*====================================================*/
+
+
+
+
+
+.FloatingSocial {
+
+  position: fixed;
+  border-radius:10px;
+  width: 75px;
+  height: 150px;
+  background: rgb(160, 141, 141);
+  
+  right: 0;
+  top: 70%;
+
+}
+
+
+
+body {
+  background-color:  #101010;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  font-size: 1.4rem; 
+  font-family: 'Courier New', Courier, monospace;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+@font-face{
+	font-family: ZETUEO;
+	src: 
+	url("../Fonts/ZETUEO__.TTF");
+	
+}
+
+
+
+#TopHead {
+  position: fixed;
+  height: 75px;
+  width: 100%;
+  background-color: #555;
+  padding: 0;
+  margin: 0;
+}
+
+.TopHeadLogo {
+  height: 75px;
+  width: 250px;
+  float: left;
+  
+}
+
+.TopHeadLogo p {
+  
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 50px;
+  white-space:nowrap;
+}
+
+
+
+/*===================================*/
+/*+++++++++++++++++++++++++++++++++++*/
+/*===================================*/
+
+
+
+/*===================================*/
+/*+++++++++++++++++++++++++++++++++++*/
+/*===================================*/
+
+.TopHeadLogo li:link {
+  background-color: #FFF;
+}
+
+.TopHeadLogo li:visited {
+  background-color: #FFF;
+}
+
+.TopHeadLogo li:hover {
+  background-color: #FFF;
+  border-radius:10px;
+}
+
+.TopHeadLogo li:active {
+  background-color: #FFF;
+}
+
+
+
+.TopHeadLogo a:link {
+  color: #FFF;
+}
+
+.TopHeadLogo a:visited {
+  color: #FFF;
+}
+
+.TopHeadLogo a:hover {
+  color: rgb(214, 228, 20);
+  
+}
+
+.TopHeadLogo a:active {
+  color: #FFF;
+}
+
+/*===================================*/
+/*+++++++++++++++++++++++++++++++++++*/
+/*===================================*/
+
+
+
+
+
+
+.header {
+  
+  padding-top: 100px;
+
+}
+
+.heading {
+  position: relative;
+  display: inline-block;
+  margin: 0px 0 0px;
+  padding-bottom: 15px;
+  letter-spacing: 2px;
+  font-size: 5rem;
+  font-family: ZETUEO;
+}
+
+.heading::before,
+.heading::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-bottom: 1px solid #999;
+}
+
+.heading::before {
+  bottom: 5px;
+}
+
+.site-title-sub {
+  margin: 0 0 30px;
+  letter-spacing: 1px;
+  font-size: 2.2rem;
+  cursor: default;
+}
+
+.site-title-sub::before,
+.site-title-sub::after {
+  content: "";
+  display: inline-block;
+  width: 190px;
+  height: 2px;
+  margin: 0 30px;
+  background-color: #fff;
+  vertical-align: middle;
+}
+
+.site-title {
+  margin: 50px 0 40px;
+  font-size: 7.5rem;
+  cursor: default;
+}
+
+
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+
+.copyright {
+  letter-spacing: 1px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.ContactMe {
+    text-align: center;
+    font-size: 1.0rem;
+}
+
+#GoTopButton {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#GoTopButton:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
